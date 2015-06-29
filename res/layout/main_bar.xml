@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#c416dc9c"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp" >
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="user" />
+
+        <TextView
+            android:id="@+id/tv_book_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv_user_name"
+            android:layout_marginTop="5dp"
+            android:text="18"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_user_name"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_user_name"
+            android:text="您读过" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_book_number"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_book_number"
+            android:text="本书" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/textview2"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_book_number"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="逾期记录" />
+
+        <TextView
+            android:id="@+id/tv_forgeatbooknumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/img_notiy"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"
+            android:text="0本" />
+
+        <ImageButton
+            android:id="@+id/img_notiy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tv_user_name"
+            android:layout_marginRight="10dp"
+            android:background="#00000000"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/notiy" />
+
+        <ImageButton
+            android:id="@+id/img_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_user_name"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/img_notiy"
+            android:background="#00000000"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/newsetting" />
+    </RelativeLayout>
+
+</LinearLayout>

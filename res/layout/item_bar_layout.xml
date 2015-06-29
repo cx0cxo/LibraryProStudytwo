@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1fb1afb8"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@android:color/white"
+        >
+        
+        <ImageView
+            android:id="@+id/img_bookpic"
+            android:layout_width="60dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:src="@drawable/b18035_m" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:layout_width="match_parent" 
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="textView"
+                />
+             <TextView
+                android:layout_width="match_parent" 
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="textView"
+                />
+             <TextView
+                android:layout_width="match_parent" 
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="textView"
+                />
+             <TextView
+                android:layout_width="match_parent" 
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="textView"
+                />
+        </LinearLayout>
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/lout_all_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#10b1afb8"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_height="35dp"
+            android:text="借书"
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:text="借书"
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:text="借书"
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:text="借书"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
